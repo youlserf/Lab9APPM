@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab9.MainPage">
+    <ContentPage.Resources>
+        <StyleSheet Source="/Assets/styles.css" />
+    </ContentPage.Resources>
+    <StackLayout>
+        <StackLayout>
+            <Label x:Name="detailPageTitle">List of all Views</Label>
+            <Button x:Name="Item1" StyleClass="detailButton" Text="ExplicitDemo"/>
+            <Button x:Name="Item2" StyleClass="detailButton" Text="ExplicitControlDemo"/>
+            <Button x:Name="Item3" StyleClass="detailButton" Text="ImplicitDemo"/>
+            <Button x:Name="Item4" StyleClass="detailButton" Text="ImplicitControlDemo"/>
+            <Button x:Name="Item5" StyleClass="detailButton" Text="GlobalDemo"/>
+            <Button x:Name="Item6" StyleClass="detailButton" Text="InheritanceDemo"/>
+            <Button x:Name="Item7" StyleClass="detailButton" Text="DynamicDemo"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

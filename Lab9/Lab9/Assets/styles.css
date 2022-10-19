@@ -1,0 +1,19 @@
+﻿^contentpage {
+    background-color: yellow;
+}
+stacklayout {
+    margin: 20;
+}
+#detailPageTitle {
+
+    font-style: bold;
+    font-size: large;
+    text-align: center;
+}
+
+.detailButton {
+    font-style: italic;
+    background-color: red;
+    margin: 10;
+    border-radius: 15;
+}
